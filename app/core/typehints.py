@@ -1,11 +1,6 @@
 from bson.objectid import ObjectId
 
 class MongoIDType(ObjectId):
-    """
-    A custom type for MongoDB. Refer to this repo:
-    https://github.com/mongodb-developer/mongodb-with-fastapi
-    https://developer.mongodb.com/quickstart/python-quickstart-fastapi/
-    """
     @classmethod
     def __get_validators__(cls):
         yield cls.validate

@@ -1,0 +1,11 @@
+/venv
+/.idea
+/app/__pycache__
+/app/models/__pycache__
+/app/api/__pycache__
+/app/core/__pycache__
+/app/crud/__pycache__
+/app/db/__pycache__
+/app/api/deps/__pycache__
+/app/api/endpoints/__pycache__
+
